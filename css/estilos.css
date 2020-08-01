@@ -30,7 +30,7 @@
   }
   
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', system-ui;
     margin: 0;
 }
 
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', system-ui;
     font-weight: normal;
 }
 
@@ -50,12 +50,13 @@ h1 {
     color: white;
     margin: 0;
     margin-left: 10px;
+    max-width: 500px;
 }
 h1 strong {
     color: #F9E647;
 }
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', system-ui;
     color: #026fff;
     text-transform: uppercase;
     font-weight: bold;
